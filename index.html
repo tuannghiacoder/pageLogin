@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Đăng Nhập</title>
+</head>
+<body class="bg-gray-200 " >
+    
+
+
+    <div class="container flex flex-row   ">
+        <!-- form đăng nhâp -->
+        <div class=" mt-[100px] w-[450px] h-[600px]  ml-[500px] bg-white rounded-xl shadow-xl relative ">
+            <!-- login -->
+            <div  id="form-login" class="absolute">
+                <form action="#" method="get">
+                    <h2 class="text-4xl font-bold pt-[60px] pl-[180px] cursor-pointer">Login</h2>
+                    <div class="flex flex-row pl-[160px] pt-[20px] ">
+                     <img title="facebook"  class=" animate-bounce  cursor-pointer w-[30px] h-[30px] hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all " src="./images/fb.png" alt="">
+                     <img title="google" class=" animate-bounce  cursor-pointer w-[30px] h-[30px] ml-[20px]  hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all" src="./images/gg.png" alt="">
+                   <img title="intragam" class=" animate-bounce cursor-pointer w-[30px] h-[30px] ml-[20px]  hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all " src="./images/in.png" alt="">  
+                  </div>
+                  <p id="login" class="pt-[20px] pl-[130px] text-sm opacity-60 hover:text-red-500 cursor-pointer">or use your email for registration</p>
+                   <input type="email"  class="w-[300px] ml-[80px] mt-[20px] bg-gray-200 border-none  " placeholder="Email" >
+                   <input type="password"  class="w-[300px] ml-[80px] mt-[20px] bg-gray-200 border-none  " placeholder="Password" >
+                  <p class="ml-[150px] mt-[20px]"><a class="hover:text-purple-500" href="#">Forgot your password?</a></p>
+                    <button class=" animate-bounce  text-white w-[150px] h-[50px] bg-red-500 mt-[60px] ml-[150px] rounded-xl hover:bg-purple-500  ">LOGIN</button>
+          
+                      </form>   
+                 
+            </div>
+            <!-- đăng kí -->
+            <div id="form-reg" class="absolute hidden ">
+                <form action="#" method="get">
+                    <h2 class="text-4xl font-bold pt-[60px] pl-[160px] cursor-pointer">Register</h2>
+                    <div class="flex flex-row pl-[160px] pt-[20px] ">
+                     <img title="facebook"  class=" animate-bounce  cursor-pointer w-[30px] h-[30px] hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all " src="./images/fb.png" alt="">
+                     <img title="google" class=" animate-bounce  cursor-pointer w-[30px] h-[30px] ml-[20px]  hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all" src="./images/gg.png" alt="">
+                   <img title="intragam" class=" animate-bounce cursor-pointer w-[30px] h-[30px] ml-[20px]  hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:transition-all " src="./images/in.png" alt="">  
+                  </div>
+                  <p class="pt-[20px] pl-[130px] text-sm opacity-60 hover:text-red-500 cursor-pointer">or use your email for registration</p>
+                   <input type="email"  class="w-[300px] ml-[80px] mt-[20px] bg-gray-200 border-none  " placeholder="Email" >
+                   <input id="num" type="text"  class="w-[300px] ml-[80px] mt-[20px] bg-gray-200 border-none  " placeholder="Numberphone" >
+                    <input type="text" class="w-[300px] ml-[80px] border-none bg-gray-200 mt-[20px] " placeholder="Usename">
+                   <input type="password"  class="w-[300px] ml-[80px] mt-[20px] bg-gray-200 border-none  " placeholder="Password" >
+                  <p class="ml-[150px] mt-[20px]"><a class="hover:text-purple-500" href="#">Forgot your password?</a></p>
+                    <button id="reg" class=" animate-bounce  text-white w-[150px] h-[50px] bg-red-500 mt-[20px] ml-[150px] rounded-xl hover:bg-purple-500  ">REGISTER</button>
+          
+                      </form>   
+
+            </div>
+    
+
+
+
+      
+        </div>
+        
+
+         </div>
+    
+
+
+
+    </div>
+   <script src="custorm.js"></script>
+</body>
+</html>
